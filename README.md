@@ -2,10 +2,16 @@
 
 Este projeto é uma API REST construída com Django e Django REST Framework para o teste técnico da CodeLeap.
 
-## Como rodar localmente
+## Como rodar localmente 
 
 1. Clone o repositório
-2. Crie um ambiente virtual e ative
+git clone https://github.com/GabrielRGR/codeleap_backend_api.git
+
+2. Crie um ambiente virtual e ative:
+python -m venv venv
+venv\Scripts\activate  # Windows
+source venv/bin/activate  # Linux/macOS
+
 3. Instale as dependências:
 pip install -r requirements.txt
 
@@ -19,5 +25,6 @@ python manage.py runserver
 ## Funcionalidades
 
 - CRUD de posts (`/api/careers/`)
+- Endpoint para dar like (`/api/careers/{career ID}/like/`)
 - Likes com verificação por `username`
 - Ordenação por data ou título
