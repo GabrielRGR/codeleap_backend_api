@@ -6,29 +6,29 @@ Este projeto é uma API REST construída com Django e Django REST Framework para
 
 1. Clone o repositório
 
-git clone https://github.com/GabrielRGR/codeleap_backend_api.git
+   - git clone https://github.com/GabrielRGR/codeleap_backend_api.git
 
 2. Crie um ambiente virtual e ative:
 
-python -m venv venv
+    - python -m venv venv
 
-venv\Scripts\activate  # Windows
+    - venv\Scripts\activate  # Windows
 
-source venv/bin/activate  # Linux/macOS
+    - source venv/bin/activate  # Linux/macOS
 
 3. Instale as dependências:
 
-pip install -r requirements.txt
+    - pip install -r requirements.txt
 
 4. Rode as migrações:
 
-python manage.py makemigrations
+    - python manage.py makemigrations
 
-python manage.py migrate
+    - python manage.py migrate
 
 5. Inicie o servidor:
 
-python manage.py runserver
+    - python manage.py runserver
 
 ## Funcionalidades
 
