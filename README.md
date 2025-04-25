@@ -19,5 +19,6 @@ python manage.py runserver
 ## Funcionalidades
 
 - CRUD de posts (`/api/careers/`)
+- Endpoint para dar like (`/api/careers/{career ID}/like/`)
 - Likes com verificação por `username`
 - Ordenação por data ou título
