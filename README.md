@@ -30,6 +30,8 @@ Este projeto é uma API REST construída com Django e Django REST Framework para
 
     - python manage.py runserver
 
+## Endpoint da api: http://127.0.0.1:8000/api/
+
 ## Funcionalidades
 
 - CRUD de posts (`/api/careers/`)
